@@ -5,6 +5,9 @@ module.exports = defineConfig({
   "reporterOptions": {
     "mochaFile": "result/my-test-output-[hash].xml"
   },
+  "scripts":{
+    "test": "cypress run"
+  },
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
