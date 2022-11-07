@@ -4,7 +4,7 @@
   "description": "Cypress Automation Framework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "thenCommand": "cypress run --spec 'cypress/e2e/PipelineTest/*' --browser chrome"
   },
   "author": "Flavian Cristei",
   "license": "ISC",
